@@ -1,0 +1,43 @@
+--> git clone:
+    command = git clone https//link(used to get you project or repo on you local machine)
+
+--> To see file: 
+    command = ls
+
+--> For hidden files:
+    command = ls -h(for window)
+              ls -a(for mac i think)
+
+--> To Check status:
+    command = git status
+
+--> To add and commit:
+    command for add = git add fileName(in this case index.html)
+                      git add .(this command add's all the files)
+    command for commit = git commit -m"some message"      
+ 
+--> To push changes from local to remote repo:
+    command for push = git push origin main
+
+______________________________________________________________________________
+
+init command:
+    used to create a new git repo
+    command = git init
+              git remote add origin <-link->
+              git remote -v     (to verify remote)
+              git branch        (to check branch)
+              git branch -M main (to rename branch) 
+              git push origin main
+______________________________________________________________________________
+
+Branch commands:
+    git branch (to check branch)
+    git branch -M main (to rename branch) 
+    git checkout <-branch name->  (to nevigate)
+    git checkout -b <-branch name->  (to create a new branch)
+    git branch -d (to delete branch)
+
+
+
+
